@@ -1,0 +1,45 @@
+     a.default:link {color:#ffccff}
+     a.default:visited {color:#ffccff}
+     a.default:hover {color:#ffccff}
+     a.default:active {color:#ffccff}
+
+     body {
+
+     background-color:#80407f;
+     font-family:arial,sans-serif;
+
+     }
+
+     div#main {
+
+     height:auto;
+     margin-left:auto;
+     margin-right:auto;
+     margin-top:20px;
+     position:static;
+     text-align:center;
+     width:800px;
+
+     }
+
+     span#top1 {
+
+     color:#ffe6ff;
+     font-size:32px;
+     text-decoration:underline;
+
+     }
+     
+     span#top2 {
+
+     color:#ffe6ff;
+     font-size:20px;
+
+     }
+
+     span#default {
+
+     color:#e6ffe6;
+     font-size:18px;
+
+     }

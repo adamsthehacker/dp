@@ -1,0 +1,908 @@
+     a:link {
+
+     color:#ffffff;
+     text-decoration:none;
+
+     }
+
+     a:visited {
+
+     color:#ffffff;
+     text-decoration:none;
+
+     }
+
+     a:hover {
+
+     color:#e5e5e5;
+     text-decoration:none;
+
+     }     
+
+     a:active {
+
+     color:#e5e5e5;
+     text-decoration:none;
+
+     }
+
+     body {
+
+     background-color:#d3d3d3;
+     font-family:arial,sans-serif;
+
+     }
+
+     div#topmenu {
+
+     background-color:#b350b3;
+     border:1px solid #666;
+     border-radius:5px;
+     box-shadow: 0 0 4px 1px #666;
+     height:30px;
+     margin-left:auto;
+     margin-right:auto;
+     position:relative;
+     top:-15px;
+     width:1024px;
+     z-index:99;
+
+     }
+
+     div#topmenu_link1 {
+
+     font-size:12px;
+     left:15px;
+     position:absolute;
+     top:11px;
+
+     }
+
+     div#topmenu_link2 {
+
+     color:#e8c3e8;
+     cursor:default;
+     font-size:12px;
+     left:71px;
+     position:absolute;
+     top:11px;
+
+     }
+     
+     div#topmenu_link3 {
+     
+     color:#e8c3e8;
+     cursor:default;
+     font-size:12px;
+     left:162px;
+     position:absolute;
+     top:11px;
+
+     }
+     
+     div#topmenu_link4 {
+
+     color:#e8c3e8;
+     cursor:default;
+     font-size:12px;
+     left:224px;
+     position:absolute;
+     top:11px;
+
+     }
+     
+     div#topmenu_link5 {
+
+     font-size:12px;
+     left:973px;
+     position:absolute;
+     top:11px;
+
+     }
+
+     div.pn {
+
+     color:#ffffff;
+     background-color:#b350b3;
+
+     }
+
+     ul.pn {
+
+     line-height:25px;
+     padding-left:20px;
+
+     }
+
+     ul.pn ul {
+
+     line-height:25px;
+     padding-left:20px;
+
+     }
+
+     div#book {
+
+     background-color:#ffffff;
+     border-radius:5px;
+     box-shadow: 0 0 3px 3px #888;
+     height:768px;
+     margin-left:auto;
+     margin-right:auto;
+     margin-top:15px;
+     position:relative;
+     width:1024px;
+     z-index:1;
+
+     }
+
+     div#book_header {
+
+     color:#000000;
+     font-size:22px;
+     line-height:20px;
+     position:absolute;
+     text-align:center;
+     top:28px;
+     width:100%;
+
+     }
+
+     div#book_ad {
+
+     color:#666666;
+     font-size:0.9em;
+     height:auto;
+     left:97px;
+     position:absolute;
+     text-align:center;
+     text-shadow:0px 0px 8px #b2b2b2;
+     top:82px;
+     width:auto;
+
+     }
+     
+     div#book_ad p {
+
+     margin:0;
+     margin-top:10px;
+
+     }
+
+     div#book_info {
+
+     border-bottom:1px dotted black;
+     border-top:1px dotted black;
+     height:107px;
+     left:50px;
+     position:absolute;
+     top:75px;
+     width:924px;
+
+     }
+
+     div#book_info_button {
+
+     background-color: #ececec;
+     color: #555555;
+     cursor:help;
+     font-size: 15px;
+     left:172px;
+     position:absolute;
+     text-align: center;
+     top:45px;
+     transition: all .50s ease-out;
+     width: 100px;
+
+     }
+
+     div#book_info_button:hover {
+
+     background-color:#dedede;
+     transition: all .50s ease-out;
+
+     }
+
+     div#book_info_button_text {
+
+     font-size:12px;
+     font-style:italic;
+     height:auto;
+     line-height:18px;
+     left:170px;
+     opacity:0;
+     padding:5px;
+     pointer-events:none;
+     position:absolute;
+     top:-34px;
+     transform: translateX(-10px);
+     -ms-transform: translateX(-10px);
+     -webkit-transform: translateX(-10px);
+     transition: all .50s ease-out;
+     -webkit-transition: all .50s ease-out;
+     width:525px;
+
+     }
+
+     div#book_info_button:hover div#book_info_button_text {
+
+     opacity: 1;
+     pointer-events: auto;
+     transform: translateX(0px);
+     -webkit-transform: translateX(0px);
+     transition: all .50s ease-out;
+     -webkit-transition: all .50s ease-out;
+
+     }
+
+     div#book_guide1 {
+
+     border:1px solid #ccc;
+     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+     height:245px;
+     left:76px;
+     position:absolute;
+     top:210px;
+     transform:translatY(0px);
+     -ms-transform:translatY(0px);
+     -webkit-transform:translatY(0px);
+     transition: all .25s ease-out;
+     -webkit-transition: all .25s ease-out;
+     width:150px;
+
+     }
+
+     div#book_guide1:hover {
+
+     transform:translateY(-10px);
+     -ms-transform:translateY(-10px);
+     -webkit-transform:translateY(-10px);
+     transition: all .25s ease-out;
+     -webkit-transition: all .25s ease-out;
+
+     }
+
+     div#book_guide1 img {
+
+     opacity:0.6;
+     transition: opacity 2s ease-out;
+     -webkit-transition: all 2s ease-out;
+
+     }
+
+     div#book_guide1 img:hover {
+
+     opacity:1;
+     transition: opacity 1s ease-out;
+     -webkit-transition: all 1s ease-out;
+
+     }
+
+     div#book_guide1_header {
+
+     background-color:#ececec;
+     color:#555555;
+     font-size:12px;
+     height:20px;
+     line-height:20px;
+     pointer-events:none;
+     position:absolute;          
+     text-align:center;
+     top:225px;          
+     width:150px;
+
+     }
+
+     div#book_guide1_info {
+
+     color:#555555;
+     font-size:14px;
+     font-style:italic;
+     left:330px;
+     line-height:18px;
+     opacity:0;
+     padding:5px;
+     pointer-events:none;
+     position:absolute;
+     top:-118px;
+     transition: opacity .50s ease-out;
+     -webkit-transition: all .50s ease-out;
+     width:525px;
+
+     }
+
+     div#book_guide1:hover div#book_guide1_info {
+
+     opacity:1;
+     transition: opacity .50s ease-out;
+     -webkit-transition: all .50s ease-out;
+
+     }
+
+     div#book_guide2 {
+
+     border:1px solid #ccc;
+     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+     height:245px;
+     left:316px;
+     position:absolute;
+     top:210px;
+     transform:translatY(0px);
+     -ms-transform:translatY(0px);
+     -webkit-transform:translatY(0px);
+     transition: all .25s ease-out;
+     -webkit-transition: all .25s ease-out;
+     width:150px;
+
+     }
+
+     div#book_guide2:hover {
+
+     transform:translateY(-10px);
+     -ms-transform:translateY(-10px);
+     -webkit-transform:translateY(-10px);
+     transition: all .25s ease-out;
+     -webkit-transition: all .25s ease-out;
+
+     }
+
+     div#book_guide2 img {
+
+     opacity:0.6;
+     transition: opacity 2s ease-out;
+     -webkit-transition: all 2s ease-out;
+
+     }
+
+     div#book_guide2 img:hover {
+
+     opacity:1;
+     transition: opacity 1s ease-out;
+     -webkit-transition: all 1s ease-out;
+
+     }
+
+     div#book_guide2_header {
+
+     background-color:#ececec;
+     color:#555555;
+     font-size:12px;
+     height:20px;
+     line-height:20px;
+     pointer-events:none;
+     position:absolute;          
+     text-align:center;
+     top:225px;          
+     width:150px;
+
+     }
+
+     div#book_guide2_info {
+
+     color:#555555;
+     font-size:14px;
+     font-style:italic;
+     left:90px;
+     line-height:18px;
+     opacity:0;
+     padding:5px;
+     pointer-events:none;
+     position:absolute;
+     top:-118px;
+     transition: opacity .50s ease-out;
+     -webkit-transition: all .50s ease-out;
+     width:525px;
+
+     }
+
+     div#book_guide2:hover div#book_guide2_info {
+
+     opacity:1;
+     transition: opacity .50s ease-out;
+     -webkit-transition: all .50s ease-out;
+
+     }
+
+     div#book_guide3 {
+
+     border:1px solid #ccc;
+     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+     height:245px;
+     left:556px;
+     position:absolute;
+     top:210px;
+     transform:translatY(0px);
+     -ms-transform:translatY(0px);
+     -webkit-transform:translatY(0px);
+     transition: all .25s ease-out;
+     -webkit-transition: all .25s ease-out;
+     width:150px;
+
+     }
+
+     div#book_guide3:hover {
+
+     transform:translateY(-10px);
+     -ms-transform:translateY(-10px);
+     -webkit-transform:translateY(-10px);
+     transition: all .25s ease-out;
+     -webkit-transition: all .25s ease-out;
+
+     }
+
+     div#book_guide3 img {
+
+     opacity:0.6;
+     transition: opacity 2s ease-out;
+     -webkit-transition: all 2s ease-out;
+
+     }
+
+     div#book_guide3 img:hover {
+
+     opacity:1;
+     transition: opacity 1s ease-out;
+     -webkit-transition: all 1s ease-out;
+
+     }
+
+     div#book_guide3_header {
+
+     background-color:#ececec;
+     color:#555555;
+     font-size:12px;
+     height:20px;
+     line-height:20px;
+     pointer-events:none;
+     position:absolute;          
+     text-align:center;
+     top:225px;          
+     width:150px;
+
+     }
+
+     div#book_guide3_info {
+
+     color:#555555;
+     font-size:14px;
+     font-style:italic;
+     left:-150px;
+     line-height:18px;
+     opacity:0;
+     padding:5px;
+     pointer-events:none;
+     position:absolute;
+     top:-118px;
+     transition: opacity .50s ease-out;
+     -webkit-transition: all .50s ease-out;
+     width:525px;
+
+     }
+
+     div#book_guide3:hover div#book_guide3_info {
+
+     opacity:1;
+     transition: opacity .50s ease-out;
+     -webkit-transition: all .50s ease-out;
+
+     }
+
+     div#book_guide4 {
+
+     border:1px solid #ccc;
+     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+     height:245px;
+     left:796px;
+     position:absolute;
+     top:210px;
+     transform:translatY(0px);
+     -ms-transform:translatY(0px);
+     -webkit-transform:translatY(0px);
+     transition: all .25s ease-out;
+     -webkit-transition: all .25s ease-out;
+     width:150px;
+
+     }
+
+     div#book_guide4:hover {
+
+     transform:translateY(-10px);
+     -ms-transform:translateY(-10px);
+     -webkit-transform:translateY(-10px);
+     transition: all .25s ease-out;
+     -webkit-transition: all .25s ease-out;
+
+     }
+
+     div#book_guide4 img {
+
+     opacity:0.6;
+     transition: opacity 2s ease-out;
+     -webkit-transition: all 2s ease-out;
+
+     }
+
+     div#book_guide4 img:hover {
+
+     opacity:1;
+     transition: opacity 1s ease-out;
+     -webkit-transition: all 1s ease-out;
+
+     }
+
+     div#book_guide4_header {
+
+     background-color:#ececec;
+     color:#555555;
+     font-size:12px;
+     height:20px;
+     line-height:20px;
+     pointer-events:none;
+     position:absolute;          
+     text-align:center;
+     top:225px;          
+     width:150px;
+
+     }
+
+     div#book_guide4_info {
+
+     color:#555555;
+     font-size:14px;
+     font-style:italic;
+     left:-390px;
+     line-height:18px;
+     opacity:0;
+     padding:5px;
+     pointer-events:none;
+     position:absolute;
+     top:-118px;
+     transition: opacity .50s ease-out;
+     -webkit-transition: all .50s ease-out;
+     width:525px;
+
+     }
+
+     div#book_guide4:hover div#book_guide4_info {
+
+     opacity:1;
+     transition: opacity .50s ease-out;
+     -webkit-transition: all .50s ease-out;
+
+     }
+
+     div#book_guide5 {
+
+     border:1px solid #ccc;
+     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+     height:245px;
+     left:76px;
+     position:absolute;
+     top:490px;
+     transform:translatY(0px);
+     -ms-transform:translatY(0px);
+     -webkit-transform:translatY(0px);
+     transition: all .25s ease-out;
+     -webkit-transition: all .25s ease-out;
+     width:150px;
+
+     }
+
+     div#book_guide5:hover {
+
+     transform:translateY(-10px);
+     -ms-transform:translateY(-10px);
+     -webkit-transform:translateY(-10px);
+     transition: all .25s ease-out;
+     -webkit-transition: all .25s ease-out;
+
+     }
+
+     div#book_guide5 img {
+
+     opacity:0.6;
+     transition: opacity 2s ease-out;
+     -webkit-transition: all 2s ease-out;
+
+     }
+
+     div#book_guide5 img:hover {
+
+     opacity:1;
+     transition: opacity 1s ease-out;
+     -webkit-transition: all 1s ease-out;
+
+     }
+
+     div#book_guide5_header {
+
+     background-color:#ececec;
+     color:#555555;
+     font-size:12px;
+     height:20px;
+     line-height:20px;
+     pointer-events:none;
+     position:absolute;          
+     text-align:center;
+     top:225px;          
+     width:150px;
+
+     }
+
+     div#book_guide5_info {
+
+     color:#555555;
+     font-size:14px;
+     font-style:italic;
+     left:330px;
+     line-height:18px;
+     opacity:0;
+     padding:5px;
+     pointer-events:none;
+     position:absolute;
+     top:-398px;
+     transition: opacity .50s ease-out;
+     -webkit-transition: all .50s ease-out;
+     width:525px;
+
+     }
+
+     div#book_guide5:hover div#book_guide5_info {
+
+     opacity:1;
+     transition: opacity .50s ease-out;
+     -webkit-transition: all .50s ease-out;
+
+     }
+
+     div#book_guide6 {
+
+     border:1px solid #ccc;
+     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+     height:245px;
+     left:316px;
+     position:absolute;
+     top:490px;
+     transform:translatY(0px);
+     -ms-transform:translatY(0px);
+     -webkit-transform:translatY(0px);
+     transition: all .25s ease-out;
+     -webkit-transition: all .25s ease-out;
+     width:150px;
+
+     }
+
+     div#book_guide6:hover {
+
+     transform:translateY(-10px);
+     -ms-transform:translateY(-10px);
+     -webkit-transform:translateY(-10px);
+     transition: all .25s ease-out;
+     -webkit-transition: all .25s ease-out;
+
+     }
+
+     div#book_guide6 img {
+
+     opacity:0.6;
+     transition: opacity 2s ease-out;
+     -webkit-transition: all 2s ease-out;
+
+     }
+
+     div#book_guide6 img:hover {
+
+     opacity:1;
+     transition: opacity 1s ease-out;
+     -webkit-transition: all 1s ease-out;
+
+     }
+
+     div#book_guide6_header {
+
+     background-color:#ececec;
+     color:#555555;
+     font-size:12px;
+     height:20px;
+     line-height:20px;
+     pointer-events:none;
+     position:absolute;          
+     text-align:center;
+     top:225px;          
+     width:150px;
+
+     }
+
+     div#book_guide6_info {
+
+     color:#555555;
+     font-size:14px;
+     font-style:italic;
+     left:90px;
+     line-height:18px;
+     opacity:0;
+     padding:5px;
+     pointer-events:none;
+     position:absolute;
+     top:-398px;
+     transition: opacity .50s ease-out;
+     -webkit-transition: all .50s ease-out;
+     width:525px;
+
+     }
+
+     div#book_guide6:hover div#book_guide6_info {
+
+     opacity:1;
+     transition: opacity .50s ease-out;
+     -webkit-transition: all .50s ease-out;
+
+     }
+
+     div#book_guide7 {
+
+     border:1px solid #ccc;
+     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+     height:245px;
+     left:556px;
+     position:absolute;
+     top:490px;
+     transform:translatY(0px);
+     -ms-transform:translatY(0px);
+     -webkit-transform:translatY(0px);
+     transition: all .25s ease-out;
+     -webkit-transition: all .25s ease-out;
+     width:150px;
+
+     }
+
+     div#book_guide7:hover {
+
+     transform:translateY(-10px);
+     -ms-transform:translateY(-10px);
+     -webkit-transform:translateY(-10px);
+     transition: all .25s ease-out;
+     -webkit-transition: all .25s ease-out;
+
+     }
+
+     div#book_guide7 img {
+
+     opacity:0.6;
+     transition: opacity 2s ease-out;
+     -webkit-transition: all 2s ease-out;
+
+     }
+
+     div#book_guide7 img:hover {
+
+     opacity:1;
+     transition: opacity 1s ease-out;
+     -webkit-transition: all 1s ease-out;
+
+     }
+
+     div#book_guide7_header {
+
+     background-color:#ececec;
+     color:#555555;
+     font-size:12px;
+     height:20px;
+     line-height:20px;
+     pointer-events:none;
+     position:absolute;          
+     text-align:center;
+     top:225px;          
+     width:150px;
+
+     }
+
+     div#book_guide7_info {
+
+     color:#555555;
+     font-size:14px;
+     font-style:italic;
+     left:-150px;
+     line-height:18px;
+     opacity:0;
+     padding:5px;
+     pointer-events:none;
+     position:absolute;
+     top:-398px;
+     transition: opacity .50s ease-out;
+     -webkit-transition: all .50s ease-out;
+     width:525px;
+
+     }
+
+     div#book_guide7:hover div#book_guide7_info {
+
+     opacity:1;
+     transition: opacity .50s ease-out;
+     -webkit-transition: all .50s ease-out;
+
+     }
+
+     div#book_guide8 {
+
+     border:1px solid #ccc;
+     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+     height:245px;
+     left:796px;
+     position:absolute;
+     top:490px;
+     transform:translatY(0px);
+     -ms-transform:translatY(0px);
+     -webkit-transform:translatY(0px);
+     transition: all .25s ease-out;
+     -webkit-transition: all .25s ease-out;
+     width:150px;
+
+     }
+
+     div#book_guide8:hover {
+
+     transform:translateY(-10px);
+     -ms-transform:translateY(-10px);
+     -webkit-transform:translateY(-10px);
+     transition: all .25s ease-out;
+     -webkit-transition: all .25s ease-out;
+
+     }
+
+     div#book_guide8 img {
+
+     opacity:0.6;
+     transition: opacity 2s ease-out;
+     -webkit-transition: all 2s ease-out;
+
+     }
+
+     div#book_guide8 img:hover {
+
+     opacity:1;
+     transition: opacity 1s ease-out;
+     -webkit-transition: all 1s ease-out;
+
+     }
+
+     div#book_guide8_header {
+
+     background-color:#ececec;
+     color:#555555;
+     font-size:12px;
+     height:20px;
+     line-height:20px;
+     pointer-events:none;
+     position:absolute;          
+     text-align:center;
+     top:225px;          
+     width:150px;
+
+     }
+
+     div#book_guide8_info {
+
+     color:#555555;
+     font-size:14px;
+     font-style:italic;
+     left:-390px;
+     line-height:18px;
+     opacity:0;
+     padding:5px;
+     pointer-events:none;
+     position:absolute;
+     top:-398px;
+     transition: opacity .50s ease-out;
+     -webkit-transition: all .50s ease-out;
+     width:525px;
+
+     }
+
+     div#book_guide8:hover div#book_guide8_info {
+
+     opacity:1;
+     transition: opacity .50s ease-out;
+     -webkit-transition: all .50s ease-out;
+
+     }
